@@ -707,6 +707,20 @@ a:focus {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+pre {
+  font-family: monospace;
+}
+
+.body {
+  padding-top: 32px;
+}
 .center {
   text-align: center;
+}
+pre.error{
+  font-weight: bold;
+  color: red;
+}
+.tweet {
+  font-size: 26px;
 }
