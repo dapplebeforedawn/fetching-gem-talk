@@ -1,0 +1,115 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Mark J. Lorenz" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <q>Five tips to a great <b>RailsConf</b> presentation:</q>
+        <ul>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-1500">
+        <q>Five tips to a great <b>RailsConf</b> presentation:</q>
+        <ul>
+          <li>Burn a <b>ridiculous strawman</b></li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <q>Five tips to a great <b>RailsConf</b> presentation:</q>
+        <ul>
+          <li>Burn a <b>ridiculous strawman</b></li>
+          <li>Show some terrible, <b>long methods</b> or classes</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="2000" data-y="-1500">
+        <q>Five tips to a great <b>RailsConf</b> presentation:</q>
+        <ul>
+          <li>Burn a <b>ridiculous strawman</b></li>
+          <li>Show some terrible, <b>long methods</b> or classes</li>
+          <li>Something something <b>SOA</b> (look a hexagon!)</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="3000" data-y="-1500">
+        <q>Five tips to a great <b>RailsConf</b> presentation:</q>
+        <ul>
+          <li>Burn a <b>ridiculous strawman</b></li>
+          <li>Show some terrible, <b>long methods</b> or classes</li>
+          <li>Something something <b>SOA</b> (look a hexagon!)</li>
+          <li>Promise <b>live coding</b>, but don't</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="4000" data-y="-1500">
+        <q>Five tips to a great <b>RailsConf</b> presentation:</q>
+        <ul>
+          <li>Burn a <b>ridiculous strawman</b></li>
+          <li>Show some terrible, <b>long methods</b> or classes</li>
+          <li>Something something <b>SOA</b> (look a hexagon!)</li>
+          <li>Promise <b>live coding</b>, but don't</li>
+          <li>Promote <b>a gem you don't use</b> in production</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="4000" data-y="-500">
+      <q>Introducting the<b>"fetching"</b> gem</q>
+    </div>
+
+    <div class="step slide" data-x="5000" data-y="-500">
+      <q>Nested JSON Objects:</q>
+      <div class='center'>
+        <img src="img/json.png"/>
+      </div>
+    </div>
+
+
+    <!-- <div id="title" class="step" data-x="0" data-y="0" data-scale="4"> -->
+    <!--     <span class="try">then you should try</span> -->
+    <!--     <h1>impress.js<sup>*</sup></h1> -->
+    <!--     <span class="footnote"><sup>*</sup> no rhyme intended</span> -->
+    <!-- </div> -->
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+
+</body>
+</html>
