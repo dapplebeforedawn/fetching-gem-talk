@@ -1,0 +1,12 @@
+{
+  "drug": {
+    "href": "https://api.covermymeds.com/drugs/123-flonase",
+    "name": "flonase",
+    "similar_drugs": [
+      {
+        "href": "https://api.covermymeds.com/drugs/234-nasonex",
+        "name": "nasonex"
+      }
+    ]
+  }
+}
