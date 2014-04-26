@@ -724,3 +724,19 @@ pre.error{
 .tweet {
   font-size: 26px;
 }
+
+#hexagon{
+  overflow: hidden;
+}
+#hexagon-img{
+  position: relative;
+  top: 178px;
+  right: -522px;
+}
+
+.subtext {
+  color: #ccc;
+}
+small{
+  font-size: 24px;
+}
